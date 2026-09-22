@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "title": "Understanding Transformer Attention Mechanisms in 5 Minutes",
+    "video_id": "attn_5min_demo",
+    "duration_sec": 310,
+    "domain": "Machine Learning",
+    "reference_summary": "Transformers replaced recurrence with self-attention, allowing parallel processing of sequential data. The core mechanism computes Query, Key, and Value projections using scaled dot-product attention: softmax of Q times K transpose divided by the square root of dimension d_k, multiplied by V. Multi-head attention projects vectors into multiple subspaces to capture diverse relational context. Positional encodings provide sequence order without recurrence. This architecture forms the basis of models like BERT and GPT."
+  },
+  "transcript": [
+    {"start": 0.0, "duration": 4.2, "text": "[Music] welcome back to the channel today we are diving into transformer attention mechanisms in under five minutes"},
+    {"start": 4.5, "duration": 5.1, "text": "before transformers were introduced in 2017 sequential models like RNNs and LSTMs dominated NLP"},
+    {"start": 9.8, "duration": 4.8, "text": "however recurrent neural networks had a fundamental bottleneck they processed tokens sequentially step by step"},
+    {"start": 14.9, "duration": 5.3, "text": "this prevented parallel computation across GPUs and caused catastrophic forgetting on long range dependencies"},
+    {"start": 20.4, "duration": 6.2, "text": "the seminal paper Attention Is All You Need changed everything by proposing self attention"},
+    {"start": 26.8, "duration": 4.9, "text": "so what exactly is self attention at its core self attention allows every token in a sentence to interact with every other token"},
+    {"start": 32.0, "duration": 5.4, "text": "instead of waiting for information to propagate through hidden states all tokens attend to each other simultaneously"},
+    {"start": 37.6, "duration": 4.8, "text": "to compute self attention we first project each input embedding into three distinct vectors"},
+    {"start": 42.6, "duration": 4.2, "text": "these vectors are called the Query the Key and the Value"},
+    {"start": 47.0, "duration": 5.0, "text": "think of Query as what a word is searching for Key as a label of what it contains and Value as the actual payload"},
+    {"start": 52.2, "duration": 6.1, "text": "the attention score is computed using the scaled dot product formula"},
+    {"start": 58.5, "duration": 5.5, "text": "we take the dot product of the Query matrix Q with the Key matrix K transpose"},
+    {"start": 64.2, "duration": 5.2, "text": "then we scale down the result by dividing by the square root of d_k where d_k is the dimension of the keys"},
+    {"start": 69.6, "duration": 5.8, "text": "why do we scale down because as dimension grows the dot products grow large in magnitude pushing softmax into regions of tiny gradients"},
+    {"start": 75.6, "duration": 4.7, "text": "next we apply a softmax function to obtain normalized attention weights that sum to one"},
+    {"start": 80.5, "duration": 5.0, "text": "finally we multiply these attention weights by the Value matrix V yielding the weighted contextual representations"},
+    {"start": 85.8, "duration": 5.2, "text": "now single head attention might only focus on one type of relationship such as syntactic agreement"},
+    {"start": 91.2, "duration": 5.6, "text": "to solve this the authors introduced Multi Head Attention"},
+    {"start": 97.0, "duration": 5.1, "text": "multi head attention projects queries keys and values into multiple lower dimensional representation subspaces"},
+    {"start": 102.3, "duration": 5.4, "text": "each head attends to different contextual information like syntactic parsing semantic roles or coreference resolution"},
+    {"start": 108.0, "duration": 5.3, "text": "the outputs of all heads are concatenated together and projected through a final linear projection layer"},
+    {"start": 113.5, "duration": 5.1, "text": "another crucial puzzle piece is positional encodings"},
+    {"start": 118.8, "duration": 5.6, "text": "because attention is permutation invariant a bag of words would yield the same output without order cues"},
+    {"start": 124.6, "duration": 5.2, "text": "sinusoidal or learned positional embeddings are added to the input token vectors to encode sequential positioning"},
+    {"start": 130.0, "duration": 5.5, "text": "today every modern large language model including GPT BERT LLaMA and Gemini is built on this foundation"},
+    {"start": 135.8, "duration": 5.0, "text": "in summary self attention enables constant path lengths between tokens massive parallel training and expressive contextual modeling"},
+    {"start": 141.0, "duration": 4.5, "text": "thanks for watching don't forget to like and subscribe for more deep learning breakdowns [Music]"}
+  ]
+}

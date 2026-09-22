@@ -1,0 +1,35 @@
+{
+  "experiment": "Experiment 5: Error Analysis & Taxonomy",
+  "naive_summary": "[Music] welcome back to the channel today we are diving into transformer attention mechanisms in under five minutes before transformers were introduced in 2017 sequential models like RNNs and LSTMs dominated NLP however recurrent neural networks had a fundamental bottleneck they processed tokens sequentially step by step this prevented parallel computation across GPUs and caused catastrophic forge tting on long range dependencies the seminal paper Attention Is All You Need changed everything by proposing self attention so what exactly is self attention at its core self attention allows every token in a sentence to interact with every other token instead of waiting for information to propagate through hidden states all tokens attend to each other simultaneously to compute self attention we f irst project each input embedding into three distinct vectors these vectors are called the Query the Key and the Value think of Query as what a word is searching for Key as a label of what it contains and Value as the actual payload the attention score is computed using the scaled dot product formula we take the dot product of the Query matrix Q with the Key matrix K transpose then we scale down t he result by dividing by the square root of d_k where d_k is the dimension of the keys why do we scale down because as dimension grows the dot products grow large in magnitude pushing softmax into regions of tiny gradients next we apply a softmax function to obtain normalized attention weights that sum to one finally we multiply these attention weights by the Value matrix V yielding the weighted c ontextual representations now single head attention might only focus on one type of relationship such as syntactic agreement to solve this the authors introduced Multi Head Attention multi head attention projects queries keys and values into multiple lower dimensional representation subspaces each head attends to different contextual information like syntactic parsing semantic roles or coreference",
+  "smart_summary": "However recurrent neural networks had a fundamental bottleneck they processed tokens sequentially step by step this prevented parallel computation across GPUs and caused catastrophic forgetting on long range dependencies the seminal paper Attention Is All You Need changed everything by proposing self attention. So what exactly is self attention at its core self attention allows every token in a sentence to interact with every other token instead of waiting for information to propagate through hidden states all tokens attend to each other simultaneously to compute self attention we first project each input embedding into three distinct vectors these vectors are called the Query the Key and the Value think of Query as what a word is searching for Key as a label of what it contains and Value as the actual payload the attention score is computed using the scaled dot product formula we take the dot product of the Query matrix Q with the Key matrix K transpose then we scale down the result by dividing by the square root of d_k where d_k is the dimension of the keys why do we scale down because as dimension grows the dot products grow large in magnitude pushing softmax into regions of tiny gradients next we apply a softmax function to obtain normalized attention weights that sum to one. Finally we multiply these attention weights by the Value matrix V yielding the weighted contextual representations. Now single head attention might only focus on one type of relationship such as syntactic agreement to solve this the authors introduced Multi Head Attention multi head attention projects queries keys and values into multiple lower dimensional representation subspaces each head attends to different contextual information syntactic parsing semantic roles or coreference resolution the outputs of all heads are concatenated together and projected through a final linear projection layer another crucial puzzle piece is positional encodings because attention is permutation invariant a bag of words would yield the same output without order cues sinusoidal or learned positional embeddings are added to the input token vectors to encode sequential positioning today every modern large language model including GPT BERT LLaMA and Gemini is built on this foundation in summary self attention enables constant path lengths between tokens massive parallel training and expressive contextual modeling thanks for watching don't forget to and subscribe for more deep learning breakdowns.",
+  "taxonomy": [
+    {
+      "error_category": "1. Audio / ASR Noise Ingestion",
+      "description": "Unfiltered tags like [Music], [Applause], or transcription glitches leaking into final summary.",
+      "naive_pipeline_rate": "1 artifacts detected",
+      "ytgist_mitigated_rate": "0 artifacts detected (100% eliminated)",
+      "mitigation_strategy": "Regex-based ASR acoustic filtering & HTML entity decoding in ytgist/preprocessing.py"
+    },
+    {
+      "error_category": "2. Mid-Sentence Boundary Truncation",
+      "description": "Fixed character/token slicing cuts words and syntactic clauses mid-thought.",
+      "naive_pipeline_rate": "0 truncated sentence boundaries",
+      "ytgist_mitigated_rate": "0 truncated sentence boundaries",
+      "mitigation_strategy": "SentenceBoundaryChunker preserving syntactic terminals (. ! ?)"
+    },
+    {
+      "error_category": "3. Redundant / Repetitive Loops",
+      "description": "Repeated phrasing across adjacent chunks inflating token budget.",
+      "naive_pipeline_rate": "Redundancy score: 0.0062",
+      "ytgist_mitigated_rate": "Redundancy score: 0.0052 (-16.1%)",
+      "mitigation_strategy": "Graph-based PageRank similarity penalization & TF-IDF term dedup"
+    },
+    {
+      "error_category": "4. Semantic Information Coverage (ROUGE-1)",
+      "description": "Loss of core thematic context due to noisy chunking or context drop.",
+      "naive_pipeline_rate": "ROUGE-1 F1: 0.2329",
+      "ytgist_mitigated_rate": "ROUGE-1 F1: 0.2117 (+-2.12%)",
+      "mitigation_strategy": "Multi-tier extraction combining TF-IDF salience and TextRank centrality"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "experiment": "Experiment 4: Long Transcripts",
+  "results": [
+    {
+      "corpus": "Short (5m talk)",
+      "word_count": 426,
+      "strategy": "Single-Shot TextRank",
+      "latency_ms": 0.29,
+      "summary_words": 425,
+      "reduction_percentage": 0.0,
+      "rouge_1_f1": 0.2088,
+      "rouge_l_f1": 0.1566
+    },
+    {
+      "corpus": "Short (5m talk)",
+      "word_count": 426,
+      "strategy": "Map-Reduce (512 tokens)",
+      "latency_ms": 1.17,
+      "summary_words": 463,
+      "reduction_percentage": -8.94,
+      "rouge_1_f1": 0.194,
+      "rouge_l_f1": 0.1493
+    },
+    {
+      "corpus": "Short (5m talk)",
+      "word_count": 426,
+      "strategy": "Hierarchical Tree",
+      "latency_ms": 0.64,
+      "summary_words": 425,
+      "reduction_percentage": 0.0,
+      "rouge_1_f1": 0.2088,
+      "rouge_l_f1": 0.1566
+    },
+    {
+      "corpus": "Medium (25m lecture)",
+      "word_count": 3803,
+      "strategy": "Single-Shot TextRank",
+      "latency_ms": 30.61,
+      "summary_words": 170,
+      "reduction_percentage": 95.56,
+      "rouge_1_f1": 0.2033,
+      "rouge_l_f1": 0.1545
+    },
+    {
+      "corpus": "Medium (25m lecture)",
+      "word_count": 3803,
+      "strategy": "Map-Reduce (512 tokens)",
+      "latency_ms": 37.16,
+      "summary_words": 203,
+      "reduction_percentage": 94.7,
+      "rouge_1_f1": 0.2796,
+      "rouge_l_f1": 0.129
+    },
+    {
+      "corpus": "Medium (25m lecture)",
+      "word_count": 3803,
+      "strategy": "Hierarchical Tree",
+      "latency_ms": 30.56,
+      "summary_words": 170,
+      "reduction_percentage": 95.56,
+      "rouge_1_f1": 0.2033,
+      "rouge_l_f1": 0.1463
+    },
+    {
+      "corpus": "Long (65m keynote)",
+      "word_count": 10508,
+      "strategy": "Single-Shot TextRank",
+      "latency_ms": 50.46,
+      "summary_words": 193,
+      "reduction_percentage": 98.24,
+      "rouge_1_f1": 0.0941,
+      "rouge_l_f1": 0.0941
+    },
+    {
+      "corpus": "Long (65m keynote)",
+      "word_count": 10508,
+      "strategy": "Map-Reduce (512 tokens)",
+      "latency_ms": 83.56,
+      "summary_words": 203,
+      "reduction_percentage": 98.15,
+      "rouge_1_f1": 0.0906,
+      "rouge_l_f1": 0.0906
+    },
+    {
+      "corpus": "Long (65m keynote)",
+      "word_count": 10508,
+      "strategy": "Hierarchical Tree",
+      "latency_ms": 100.57,
+      "summary_words": 153,
+      "reduction_percentage": 98.61,
+      "rouge_1_f1": 0.1116,
+      "rouge_l_f1": 0.1116
+    },
+    {
+      "corpus": "Stress-Test (~2hr video)",
+      "word_count": 21016,
+      "strategy": "Single-Shot TextRank",
+      "latency_ms": 137.65,
+      "summary_words": 198,
+      "reduction_percentage": 99.1,
+      "rouge_1_f1": 0.0923,
+      "rouge_l_f1": 0.0923
+    },
+    {
+      "corpus": "Stress-Test (~2hr video)",
+      "word_count": 21016,
+      "strategy": "Map-Reduce (512 tokens)",
+      "latency_ms": 263.98,
+      "summary_words": 209,
+      "reduction_percentage": 99.05,
+      "rouge_1_f1": 0.0886,
+      "rouge_l_f1": 0.0886
+    },
+    {
+      "corpus": "Stress-Test (~2hr video)",
+      "word_count": 21016,
+      "strategy": "Hierarchical Tree",
+      "latency_ms": 283.58,
+      "summary_words": 144,
+      "reduction_percentage": 99.35,
+      "rouge_1_f1": 0.1165,
+      "rouge_l_f1": 0.1165
+    }
+  ]
+}

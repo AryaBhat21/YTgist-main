@@ -1,0 +1,535 @@
+{
+  "exp1_chunk_sizes": {
+    "experiment": 1,
+    "results": [
+      {
+        "chunk_size_tokens": 256,
+        "overlap_ratio": 0.0,
+        "num_chunks": 20,
+        "avg_words_per_chunk": 190.2,
+        "boundary_cutoffs_pct": 95.0,
+        "latency_ms": 54.72,
+        "rouge_1_f1": 0.2033,
+        "rouge_2_f1": 0.0492,
+        "rouge_l_f1": 0.1545,
+        "redundancy_score": 0.6131,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. Let's look more closely at this specific property: Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "chunk_size_tokens": 256,
+        "overlap_ratio": 0.1,
+        "num_chunks": 22,
+        "avg_words_per_chunk": 191.0,
+        "boundary_cutoffs_pct": 86.36,
+        "latency_ms": 56.21,
+        "rouge_1_f1": 0.2796,
+        "rouge_2_f1": 0.0673,
+        "rouge_l_f1": 0.1581,
+        "redundancy_score": 0.3386,
+        "summary": "Let's look more closely at this specific property: The Leader Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. Let's look more closely at this specific property: Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. Let's look more closely at this specific property: Furthermore, the Leader Completeness property states that if a log entry is committed in a given term, that entry will be present in the logs of leaders for all higher terms. Let's look more closely at this specific property: If a Follower hears no communication from a valid Leader within a randomized election timeout, it assumes the Leader has failed and transitions to the Candidate state. Once a Candidate receives votes from a strict majority of nodes, it transitions to the Leader state and immediately Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. As we discussed earlier, furthermore, the leader completeness property states that if a log entry is committed in a given term, that entry will be Let's look more closely at this specific property: In conclusion, Raft simplifies consensus through strong leadership, randomized election timeouts, and rigid log matching invariants, powering modern systems like etcd, Consul, and CockroachDB."
+      },
+      {
+        "chunk_size_tokens": 256,
+        "overlap_ratio": 0.2,
+        "num_chunks": 25,
+        "avg_words_per_chunk": 188.6,
+        "boundary_cutoffs_pct": 84.0,
+        "latency_ms": 50.85,
+        "rouge_1_f1": 0.1719,
+        "rouge_2_f1": 0.0236,
+        "rouge_l_f1": 0.1328,
+        "redundancy_score": 0.6854,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. As we discussed earlier, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: When a majority of Followers successfully write the log the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "chunk_size_tokens": 512,
+        "overlap_ratio": 0.0,
+        "num_chunks": 10,
+        "avg_words_per_chunk": 380.3,
+        "boundary_cutoffs_pct": 90.0,
+        "latency_ms": 33.6,
+        "rouge_1_f1": 0.1513,
+        "rouge_2_f1": 0.0085,
+        "rouge_l_f1": 0.1261,
+        "redundancy_score": 0.7063,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "chunk_size_tokens": 512,
+        "overlap_ratio": 0.1,
+        "num_chunks": 11,
+        "avg_words_per_chunk": 380.3,
+        "boundary_cutoffs_pct": 63.64,
+        "latency_ms": 40.05,
+        "rouge_1_f1": 0.2796,
+        "rouge_2_f1": 0.0578,
+        "rouge_l_f1": 0.129,
+        "redundancy_score": 0.3881,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: If Let's look more closely at this specific property: If a Follower hears no communication from a valid Leader within a randomized election timeout, it assumes the Leader has failed and transitions to the Candidate state. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. Let's look more closely at this specific property: Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. Let's look more closely at this specific property: Furthermore, the Leader Completeness property states that if a log entry is committed in a given term, that entry will be present in the logs of leaders for all higher terms. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "chunk_size_tokens": 512,
+        "overlap_ratio": 0.2,
+        "num_chunks": 13,
+        "avg_words_per_chunk": 362.7,
+        "boundary_cutoffs_pct": 92.31,
+        "latency_ms": 44.75,
+        "rouge_1_f1": 0.2008,
+        "rouge_2_f1": 0.0486,
+        "rouge_l_f1": 0.1446,
+        "redundancy_score": 0.6433,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. Let's look more closely at this specific property: Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "chunk_size_tokens": 1024,
+        "overlap_ratio": 0.0,
+        "num_chunks": 5,
+        "avg_words_per_chunk": 760.6,
+        "boundary_cutoffs_pct": 80.0,
+        "latency_ms": 39.12,
+        "rouge_1_f1": 0.2727,
+        "rouge_2_f1": 0.0534,
+        "rouge_l_f1": 0.1515,
+        "redundancy_score": 0.4516,
+        "summary": "If we monitor the cluster metrics here, raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. If we monitor the cluster metrics here, furthermore, the leader completeness property states that if a log entry is Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. Let's look more closely at this specific property: Furthermore, the Leader Completeness property states that if a log entry is committed in a given term, that entry will be present in the logs of leaders for all higher terms. In practical engineering deployments, raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes."
+      },
+      {
+        "chunk_size_tokens": 1024,
+        "overlap_ratio": 0.1,
+        "num_chunks": 6,
+        "avg_words_per_chunk": 697.2,
+        "boundary_cutoffs_pct": 83.33,
+        "latency_ms": 41.48,
+        "rouge_1_f1": 0.1845,
+        "rouge_2_f1": 0.0149,
+        "rouge_l_f1": 0.1255,
+        "redundancy_score": 0.5959,
+        "summary": "Let's look more closely at this specific property: If a Follower hears no communication from a valid Leader within a randomized election timeout, it assumes the Leader has failed and transitions to the Candidate state. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "chunk_size_tokens": 1024,
+        "overlap_ratio": 0.2,
+        "num_chunks": 6,
+        "avg_words_per_chunk": 761.3,
+        "boundary_cutoffs_pct": 83.33,
+        "latency_ms": 33.8,
+        "rouge_1_f1": 0.2667,
+        "rouge_2_f1": 0.0588,
+        "rouge_l_f1": 0.1667,
+        "redundancy_score": 0.4321,
+        "summary": "Let's look more closely at this specific property: If a Follower hears no communication from a valid Leader within a randomized election timeout, it assumes the Leader has failed and transitions to the Candidate state. Let's look more closely at this specific property: Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes."
+      },
+      {
+        "chunk_size_tokens": 2048,
+        "overlap_ratio": 0.0,
+        "num_chunks": 3,
+        "avg_words_per_chunk": 1267.7,
+        "boundary_cutoffs_pct": 66.67,
+        "latency_ms": 25.97,
+        "rouge_1_f1": 0.2061,
+        "rouge_2_f1": 0.0154,
+        "rouge_l_f1": 0.1145,
+        "redundancy_score": 0.5761,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: Furthermore, the Leader Completeness property states that if a log entry is committed in a given term, that entry will be present in the logs of leaders for all higher terms. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. In practical engineering deployments, furthermore, the leader completeness property states that if a log entry is committed in a given term, that entry will be present in the logs of leaders for all higher terms."
+      },
+      {
+        "chunk_size_tokens": 2048,
+        "overlap_ratio": 0.1,
+        "num_chunks": 3,
+        "avg_words_per_chunk": 1369.7,
+        "boundary_cutoffs_pct": 66.67,
+        "latency_ms": 23.22,
+        "rouge_1_f1": 0.2033,
+        "rouge_2_f1": 0.0492,
+        "rouge_l_f1": 0.1545,
+        "redundancy_score": 0.6131,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. Let's look more closely at this specific property: Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "chunk_size_tokens": 2048,
+        "overlap_ratio": 0.2,
+        "num_chunks": 3,
+        "avg_words_per_chunk": 1472.3,
+        "boundary_cutoffs_pct": 66.67,
+        "latency_ms": 25.95,
+        "rouge_1_f1": 0.157,
+        "rouge_2_f1": 0.0083,
+        "rouge_l_f1": 0.124,
+        "redundancy_score": 0.689,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. As we discussed earlier, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      }
+    ]
+  },
+  "exp2_summarization_approaches": {
+    "experiment": 2,
+    "results": [
+      {
+        "approach": "Direct TextRank (Single-Shot)",
+        "latency_ms": 54.84,
+        "rouge_1": {
+          "precision": 0.1471,
+          "recall": 0.3289,
+          "f1": 0.2033
+        },
+        "rouge_2": {
+          "precision": 0.0355,
+          "recall": 0.08,
+          "f1": 0.0492
+        },
+        "rouge_l": {
+          "precision": 0.1118,
+          "recall": 0.25,
+          "f1": 0.1545
+        },
+        "summary_words": 170,
+        "reduction_percentage": 95.56,
+        "redundancy_score": 0.6131,
+        "lexical_diversity": 0.3,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. Let's look more closely at this specific property: Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "approach": "TF-IDF Salience",
+        "latency_ms": 13.86,
+        "rouge_1": {
+          "precision": 0.2712,
+          "recall": 0.2105,
+          "f1": 0.237
+        },
+        "rouge_2": {
+          "precision": 0.0517,
+          "recall": 0.04,
+          "f1": 0.0451
+        },
+        "rouge_l": {
+          "precision": 0.1356,
+          "recall": 0.1053,
+          "f1": 0.1185
+        },
+        "summary_words": 59,
+        "reduction_percentage": 98.46,
+        "redundancy_score": 0.2105,
+        "lexical_diversity": 0.661,
+        "summary": "Welcome everyone to CS 244 Distributed Systems Engineering. Let us examine the node states. In conclusion, Raft simplifies consensus through strong leadership, randomized election timeouts, and rigid log matching invariants, powering modern systems like etcd, Consul, and CockroachDB. Now let us turn to log replication. Welcome everyone to CS 244 Distributed Systems Engineering. Let us examine the node states."
+      },
+      {
+        "approach": "Map-Reduce (512 tokens)",
+        "latency_ms": 35.79,
+        "rouge_1": {
+          "precision": 0.1921,
+          "recall": 0.5132,
+          "f1": 0.2796
+        },
+        "rouge_2": {
+          "precision": 0.0396,
+          "recall": 0.1067,
+          "f1": 0.0578
+        },
+        "rouge_l": {
+          "precision": 0.0887,
+          "recall": 0.2368,
+          "f1": 0.129
+        },
+        "summary_words": 203,
+        "reduction_percentage": 94.7,
+        "redundancy_score": 0.3881,
+        "lexical_diversity": 0.399,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: If Let's look more closely at this specific property: If a Follower hears no communication from a valid Leader within a randomized election timeout, it assumes the Leader has failed and transitions to the Candidate state. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. Let's look more closely at this specific property: Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. Let's look more closely at this specific property: Furthermore, the Leader Completeness property states that if a log entry is committed in a given term, that entry will be present in the logs of leaders for all higher terms. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "approach": "Iterative Refine",
+        "latency_ms": 42.22,
+        "rouge_1": {
+          "precision": 0.1118,
+          "recall": 0.25,
+          "f1": 0.1545
+        },
+        "rouge_2": {
+          "precision": 0.0059,
+          "recall": 0.0133,
+          "f1": 0.0082
+        },
+        "rouge_l": {
+          "precision": 0.0882,
+          "recall": 0.1974,
+          "f1": 0.122
+        },
+        "summary_words": 170,
+        "reduction_percentage": 95.56,
+        "redundancy_score": 0.7143,
+        "lexical_diversity": 0.2118,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes.. Furthermore, If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. As we discussed earlier, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes... If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes.. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes.."
+      },
+      {
+        "approach": "Hierarchical Tree",
+        "latency_ms": 36.51,
+        "rouge_1": {
+          "precision": 0.1471,
+          "recall": 0.3289,
+          "f1": 0.2033
+        },
+        "rouge_2": {
+          "precision": 0.0118,
+          "recall": 0.0267,
+          "f1": 0.0164
+        },
+        "rouge_l": {
+          "precision": 0.1059,
+          "recall": 0.2368,
+          "f1": 0.1463
+        },
+        "summary_words": 170,
+        "reduction_percentage": 95.56,
+        "redundancy_score": 0.5595,
+        "lexical_diversity": 0.3118,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: If a Follower hears no communication from a valid Leader within a randomized election timeout, it assumes the Leader has failed and transitions to the Candidate state. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      }
+    ]
+  },
+  "exp3_length_vs_quality": {
+    "experiment": 3,
+    "results": [
+      {
+        "sentence_budget": 2,
+        "word_count": 60,
+        "compression_ratio": 0.0157,
+        "reduction_percentage": 98.43,
+        "rouge_1_precision": 0.25,
+        "rouge_1_recall": 0.1974,
+        "rouge_1_f1": 0.2206,
+        "rouge_l_f1": 0.1324,
+        "redundancy_score": 0.4828,
+        "lexical_diversity": 0.4333,
+        "latency_ms": 22.74,
+        "summary": "Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "sentence_budget": 4,
+        "word_count": 117,
+        "compression_ratio": 0.0306,
+        "reduction_percentage": 96.94,
+        "rouge_1_precision": 0.2137,
+        "rouge_1_recall": 0.3289,
+        "rouge_1_f1": 0.2591,
+        "rouge_l_f1": 0.1865,
+        "redundancy_score": 0.487,
+        "lexical_diversity": 0.4017,
+        "latency_ms": 51.7,
+        "summary": "Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. Let's look more closely at this specific property: Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "sentence_budget": 6,
+        "word_count": 170,
+        "compression_ratio": 0.0444,
+        "reduction_percentage": 95.56,
+        "rouge_1_precision": 0.1471,
+        "rouge_1_recall": 0.3289,
+        "rouge_1_f1": 0.2033,
+        "rouge_l_f1": 0.1545,
+        "redundancy_score": 0.6131,
+        "lexical_diversity": 0.3,
+        "latency_ms": 52.79,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. Let's look more closely at this specific property: Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "sentence_budget": 8,
+        "word_count": 224,
+        "compression_ratio": 0.0585,
+        "reduction_percentage": 94.15,
+        "rouge_1_precision": 0.1205,
+        "rouge_1_recall": 0.3553,
+        "rouge_1_f1": 0.18,
+        "rouge_l_f1": 0.1467,
+        "redundancy_score": 0.6892,
+        "lexical_diversity": 0.2277,
+        "latency_ms": 22.82,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. Let's look more closely at this specific property: Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "sentence_budget": 10,
+        "word_count": 288,
+        "compression_ratio": 0.0752,
+        "reduction_percentage": 92.48,
+        "rouge_1_precision": 0.125,
+        "rouge_1_recall": 0.4737,
+        "rouge_1_f1": 0.1978,
+        "rouge_l_f1": 0.1319,
+        "redundancy_score": 0.6294,
+        "lexical_diversity": 0.2396,
+        "latency_ms": 52.49,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. Let's look more closely at this specific property: Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: Furthermore, the Leader Completeness property states that if a log entry is committed in a given term, that entry will be present in the logs of leaders for all higher terms. In practical engineering deployments, raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. If we monitor the cluster metrics here, raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      },
+      {
+        "sentence_budget": 15,
+        "word_count": 425,
+        "compression_ratio": 0.111,
+        "reduction_percentage": 88.9,
+        "rouge_1_precision": 0.1059,
+        "rouge_1_recall": 0.5921,
+        "rouge_1_f1": 0.1796,
+        "rouge_l_f1": 0.1158,
+        "redundancy_score": 0.6147,
+        "lexical_diversity": 0.2282,
+        "latency_ms": 52.78,
+        "summary": "If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: Historically, Paxos was the gold standard for distributed consensus. If we monitor the cluster metrics here, raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. Let's look more closely at this specific property: If a Follower hears no communication from a valid Leader within a randomized election timeout, it assumes the Leader has failed and transitions to the Candidate state. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes. Let's look more closely at this specific property: Raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. Let's look more closely at this specific property: Once committed, the Leader applies the entry to its local state machine and returns the execution result to the client. In practical engineering deployments, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: Furthermore, the Leader Completeness property states that if a log entry is committed in a given term, that entry will be present in the logs of leaders for all higher terms. In practical engineering deployments, raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. If we monitor the cluster metrics here, the leader appends the command to its local log and issues appendentries rpcs containing the log entry to all follower nodes. Let's look more closely at this specific property: Historically, Paxos was the gold standard for distributed consensus. If we monitor the cluster metrics here, raft achieves consensus by decomposing the consensus problem into three relatively independent subproblems: leader election, log replication, and safety enforcement. Let's look more closely at this specific property: If a Follower hears no communication from a valid Leader within a randomized election timeout, it assumes the Leader has failed and transitions to the Candidate state. Let's look more closely at this specific property: The Leader appends the command to its local log and issues AppendEntries RPCs containing the log entry to all Follower nodes."
+      }
+    ]
+  },
+  "exp4_long_transcripts": {
+    "experiment": 4,
+    "results": [
+      {
+        "corpus": "Short (5m talk)",
+        "word_count": 426,
+        "strategy": "Single-Shot TextRank",
+        "latency_ms": 0.29,
+        "summary_words": 425,
+        "reduction_percentage": 0.0,
+        "rouge_1_f1": 0.2088,
+        "rouge_l_f1": 0.1566
+      },
+      {
+        "corpus": "Short (5m talk)",
+        "word_count": 426,
+        "strategy": "Map-Reduce (512 tokens)",
+        "latency_ms": 1.17,
+        "summary_words": 463,
+        "reduction_percentage": -8.94,
+        "rouge_1_f1": 0.194,
+        "rouge_l_f1": 0.1493
+      },
+      {
+        "corpus": "Short (5m talk)",
+        "word_count": 426,
+        "strategy": "Hierarchical Tree",
+        "latency_ms": 0.64,
+        "summary_words": 425,
+        "reduction_percentage": 0.0,
+        "rouge_1_f1": 0.2088,
+        "rouge_l_f1": 0.1566
+      },
+      {
+        "corpus": "Medium (25m lecture)",
+        "word_count": 3803,
+        "strategy": "Single-Shot TextRank",
+        "latency_ms": 30.61,
+        "summary_words": 170,
+        "reduction_percentage": 95.56,
+        "rouge_1_f1": 0.2033,
+        "rouge_l_f1": 0.1545
+      },
+      {
+        "corpus": "Medium (25m lecture)",
+        "word_count": 3803,
+        "strategy": "Map-Reduce (512 tokens)",
+        "latency_ms": 37.16,
+        "summary_words": 203,
+        "reduction_percentage": 94.7,
+        "rouge_1_f1": 0.2796,
+        "rouge_l_f1": 0.129
+      },
+      {
+        "corpus": "Medium (25m lecture)",
+        "word_count": 3803,
+        "strategy": "Hierarchical Tree",
+        "latency_ms": 30.56,
+        "summary_words": 170,
+        "reduction_percentage": 95.56,
+        "rouge_1_f1": 0.2033,
+        "rouge_l_f1": 0.1463
+      },
+      {
+        "corpus": "Long (65m keynote)",
+        "word_count": 10508,
+        "strategy": "Single-Shot TextRank",
+        "latency_ms": 50.46,
+        "summary_words": 193,
+        "reduction_percentage": 98.24,
+        "rouge_1_f1": 0.0941,
+        "rouge_l_f1": 0.0941
+      },
+      {
+        "corpus": "Long (65m keynote)",
+        "word_count": 10508,
+        "strategy": "Map-Reduce (512 tokens)",
+        "latency_ms": 83.56,
+        "summary_words": 203,
+        "reduction_percentage": 98.15,
+        "rouge_1_f1": 0.0906,
+        "rouge_l_f1": 0.0906
+      },
+      {
+        "corpus": "Long (65m keynote)",
+        "word_count": 10508,
+        "strategy": "Hierarchical Tree",
+        "latency_ms": 100.57,
+        "summary_words": 153,
+        "reduction_percentage": 98.61,
+        "rouge_1_f1": 0.1116,
+        "rouge_l_f1": 0.1116
+      },
+      {
+        "corpus": "Stress-Test (~2hr video)",
+        "word_count": 21016,
+        "strategy": "Single-Shot TextRank",
+        "latency_ms": 137.65,
+        "summary_words": 198,
+        "reduction_percentage": 99.1,
+        "rouge_1_f1": 0.0923,
+        "rouge_l_f1": 0.0923
+      },
+      {
+        "corpus": "Stress-Test (~2hr video)",
+        "word_count": 21016,
+        "strategy": "Map-Reduce (512 tokens)",
+        "latency_ms": 263.98,
+        "summary_words": 209,
+        "reduction_percentage": 99.05,
+        "rouge_1_f1": 0.0886,
+        "rouge_l_f1": 0.0886
+      },
+      {
+        "corpus": "Stress-Test (~2hr video)",
+        "word_count": 21016,
+        "strategy": "Hierarchical Tree",
+        "latency_ms": 283.58,
+        "summary_words": 144,
+        "reduction_percentage": 99.35,
+        "rouge_1_f1": 0.1165,
+        "rouge_l_f1": 0.1165
+      }
+    ]
+  },
+  "exp5_error_analysis": {
+    "experiment": 5,
+    "taxonomy": [
+      {
+        "error_category": "1. Audio / ASR Noise Ingestion",
+        "description": "Unfiltered tags like [Music], [Applause], or transcription glitches leaking into final summary.",
+        "naive_pipeline_rate": "1 artifacts detected",
+        "ytgist_mitigated_rate": "0 artifacts detected (100% eliminated)",
+        "mitigation_strategy": "Regex-based ASR acoustic filtering & HTML entity decoding in ytgist/preprocessing.py"
+      },
+      {
+        "error_category": "2. Mid-Sentence Boundary Truncation",
+        "description": "Fixed character/token slicing cuts words and syntactic clauses mid-thought.",
+        "naive_pipeline_rate": "0 truncated sentence boundaries",
+        "ytgist_mitigated_rate": "0 truncated sentence boundaries",
+        "mitigation_strategy": "SentenceBoundaryChunker preserving syntactic terminals (. ! ?)"
+      },
+      {
+        "error_category": "3. Redundant / Repetitive Loops",
+        "description": "Repeated phrasing across adjacent chunks inflating token budget.",
+        "naive_pipeline_rate": "Redundancy score: 0.0062",
+        "ytgist_mitigated_rate": "Redundancy score: 0.0052 (-16.1%)",
+        "mitigation_strategy": "Graph-based PageRank similarity penalization & TF-IDF term dedup"
+      },
+      {
+        "error_category": "4. Semantic Information Coverage (ROUGE-1)",
+        "description": "Loss of core thematic context due to noisy chunking or context drop.",
+        "naive_pipeline_rate": "ROUGE-1 F1: 0.2329",
+        "ytgist_mitigated_rate": "ROUGE-1 F1: 0.2117 (+-2.12%)",
+        "mitigation_strategy": "Multi-tier extraction combining TF-IDF salience and TextRank centrality"
+      }
+    ]
+  }
+}
